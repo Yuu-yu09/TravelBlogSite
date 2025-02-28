@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="/src/styles/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <title>Travel Blog Site</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Travel<span>Blog</span>Site</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header id="home">
+      <div class="header__content">
+        <h1>WELCOME TO OUR <span>TRAVEL BLOG</span> SITE</h1>
+        <p class="section__description">
+          Join us as we uncover stunning locales, secret treasures, and unforgettable 
+
+          adventures across the Philippines. Whether you're an explorer driven by wanderlust,
+
+          a culture aficionado, or someone seeking tranquil retreats, our blog opens the door 
+
+          to inspiration and essential travel insights. Let's transform each journey into 
+
+          a narrative worth sharing. Let the adventure begin—let's explore!
+        </p>
+        <div class="header__btn">
+          <button class="btn">Discover More</button>
+        </div>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-pinterest-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-phone-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    
+
+    <section class="section__container discover__container" id="blog">
+      <h2 class="section__header">Ronac Art Museum</h2>
+      <p class="section__description">
+
+        That day, my friends and I went to the Ronac Art Museum to enjoy ourselves,
+
+         strengthen our bonds, and take in the many artworks and locations.
+      </p>
+         <div class="discover__card">
+            <img src="/src/assets/img/charles.jpg" alt="discover" />
+            <img src="/src/assets/img/ronac.jpg" alt="discover" />
+        </div>
+        
+
+      <div class="discover__grid">
+        <div class="discover__card">
+           <img src="/src/assets/img/jomar.jpg" alt="discover" />
+          <div class="discover__card__content">
+            <h4>SM Marikina</h4>
+            <p class="section__description">
+              My girlfriend and I were having fun together. At SM Marikina, 
+
+              we celebrated our anniversary all day long. We also went 
+              
+              to a restaurant there and played some arcade games. We really had a great time
+            </p>
+        </div>
+        <div class="discover__card">
+          <img src="/src/assets/img/vimar.jpg" alt="discover" />
+          <div class="discover__card__content">
+            <h4>Pinto Art Museum</h4>
+            <p class="section__description">
+              Spending time together with a person or people. 
+              
+              doing stuff is considered as hanging out. I agree with others, 
+              
+              it doesn’t have to be in a physical space.
+            </p>
+
+          </div>
+        </div>
+        <div class="discover__card">
+          <img src="/src/assets/img/sophia.jfif" alt="discover" />
+          <div class="discover__card__content">
+            <h4>Tagaytay</h4>
+            <p class="section__description">
+              I treasure this photo, which was taken in Tagaytay in December of 2024. 
+              
+              I spent the day with the person I love, and we enjoyed the view of the Taal Volcano. 
+              
+              Besides that, we went to a special location in Tagaytay, ate some delicious food, and enjoyed our long ride.
+            </p>
+  
+          </div>
+        </div>
+        <div class="discover__card">
+          <img src="/src/assets/img/nicolee.jpg" alt="discover" />
+          <div class="discover__card__content">
+            <h4>Cloud 9</h4>
+            <p class="section__description">
+              My friend and I had a fantastic time hanging out at Cloud 9 in Antipolo. 
+              
+              It was such a memorable experience. The view was absolutely stunning!
+            </p>
+  
+          </div>
+        </div>
+        <div class="discover__card">
+          <img src="/src/assets/img/nicole4.webp" alt="discover" />
+          <div class="discover__card__content">
+            <h4>Manila Ocean Park</h4>
+            <p class="section__description">
+              My mother, my brother, and I went to Manila Ocean Park to celebrate my birthday. 
+              
+              It was so much fun, and I truly treasure that moment. 
+              
+              Being complete as a family means everything to me!
+            </p>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="section__container subscribe__container" id="about">
+      <div class="subscribe__content">
+        <h2 class="section__header">About us</h2>
+        <p class="section__description">
+          Welcome to Travel Blog Site!
+
+          We are passionate wanderers, storytellers, and adventurers at heart. Our mission is 
+
+          to inspire and guide fellow travelers through immersive stories, stunning photography, 
+          
+          and practical tips from every corner of the globe. Whether you're a weekend explorer 
+          
+          or a seasoned globetrotter, our blog is your go-to resource for discovering new destinations, 
+          
+          embracing diverse cultures, and making unforgettable memories.
+          
+          Join us as we embark on this incredible journey—one adventure at a time.
+          
+          Let’s explore the world together!
+        </p>
+
+      </div>
+    </section>
+
+    <section class="popular">
+      <h1>Popular Destinations</h1>
+      <div class="map">
+
+        <div class="container1">
+          <div class="box">
+            <h1>Alona Beach Resort</h1>
+            <p>Alona Beach on Panglao Island, Bohol, felt like paradise with its pristine waters, fine white sand, and serene yet convenient location. The stunning sunsets, vibrant underwater life, and welcoming beachside resorts made it a truly unforgettable experience!</p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7869.043434092728!2d123.76468155378504!3d9.5502153862423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salona%20beach%20resort%20bohol!5e0!3m2!1sen!2sph!4v1740647947682!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="container2">
+          <div class="box">
+            <h1>Taal Volcano</h1>
+            <p>The view of Taal Volcano features its iconic crater island surrounded by the deep blue waters of Taal Lake, set against distant mountains under a partly cloudy sky. The volcano's rugged, ash-colored terrain contrasts beautifully with the lush greenery in the foreground, creating a stunning natural landscape.</p>
+         </div>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15484.456097937253!2d120.98736969161257!3d14.011252631622222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd738d30c66c4f%3A0x749396e27e5f3873!2sTaal%20Volcano!5e0!3m2!1sen!2sph!4v1740648270419!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="container3">
+          <div class="box">
+            <h1>BGC</h1>
+            <p>BGC (Bonifacio Global City) is a top destination for locals and tourists, known for its modern vibe, upscale shopping malls, trendy restaurants, lively nightlife, well-planned streets, public art, and green spaces.</p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.829583874909!2d121.0452630106839!3d14.551735985870124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9000ea8f70f%3A0xe2ea507d27774e50!2sBGC%2C%20Manila!5e0!3m2!1sen!2sph!4v1740648523218!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="container4">
+          <div class="box">
+            <h1>Daranak Falls</h1>
+            <p>Daranak Falls, located in Tanay, Rizal, is popular for its natural beauty, featuring a cascading waterfall surrounded by lush greenery and clear, refreshing scene making it a favorite escape for nature lovers, picnics, and day trips.</p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.9670851288433!2d121.30844351068372!3d14.5438749858771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397eb94bc871713%3A0xd41e820d63512a2d!2sDaranak%20Falls!5e0!3m2!1sen!2sph!4v1740648760234!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="tips">
+      <h2 class="tips-header">Travel Tips</h2>
+      <div class="tips-container">
+        
+        
+        <div class="tip-card">
+          <img src="/src/assets/img/pack.jpg" alt="Packing Tips">
+          <div class="tip-content">
+            <p>💼 Pack Light: Avoid overpacking by choosing versatile clothing.</p>
+          </div>
+        </div>
+    
+        
+        <div class="tip-card">
+          <img src="/src/assets/img/budget.webp" alt="Budgeting Tips">
+          <div class="tip-content">
+            <p>💳 Budget Wisely: Use no-fee cards and track your expenses.</p>
+          </div>
+        </div>
+    
+      
+        <div class="tip-card">
+          <img src="/src/assets/img/documents.jpg" alt="Safety Tips">
+          <div class="tip-content">
+            <p>🛡️ Stay Safe: Always keep a digital copy of your documents.</p>
+          </div>
+        </div>
+
+      
+        <div class="tip-card">
+          <img src="/src/assets/img/culture.jpg" alt="Cultural Tips">
+          <div class="tip-content">
+            <p>🌍 Embrace Local Culture: Learn a few phrases in the local language.</p>
+          </div>
+        </div>
+
+        
+        <div class="tip-card">
+          <img src="/src/assets/img/nature.jpg" alt="Nature Tips">
+          <div class="tip-content">
+            <p>🌿 Respect Nature: Follow 'Leave No Trace' principles when hiking.</p>
+          </div>
+        </div>
+
+       
+        <div class="tip-card">
+          <img src="/src/assets/img/bags.jpg" alt="Luggage Tips">
+          <div class="tip-content">
+            <p>🎒 Use Carry-Ons: Save on baggage fees and avoid lost luggage.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    
+
+    <section class="gallery">
+      
+      <div class="photo_gallery">
+        <div class="column">
+          <div class="photo" style="--aspect-ratio: 1.5">
+            <img src="/src/assets/img/ALONA BEACH RESORT BOHOL.jpg" alt="">
+          </div>
+          <div class="photo" style="--aspect-ratio: 1.5">
+            <img src="/src/assets/img/PEOPLE'S PARK IN THE SKY TAGAYTAY (1).jpg" alt="">
+          </div>
+          <div class="photo" style="--aspect-ratio: 2">
+            <img src="/src/assets/img/MODALA BEACH RESORT BOHOL.jpg" alt="">
+          </div>
+          <div class="photo" style="--aspect-ratio: 1">
+            <img src="/src/assets/img/1.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="photo" style="--aspect-ratio: 1">
+            <img src="/src/assets/img/2 (2).jpg" alt="">
+          </div>
+          <div class="photo" style="--aspect-ratio: 3">
+            <img src="/src/assets/img/3 (2).jpg" alt="">
+          </div>
+          <div class="photo" style="--aspect-ratio: 2">
+            <img src="/src/assets/img/4 (2).jpg" alt="">
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="photo" style="--aspect-ratio: 2">
+            <img src="/src/assets/img/5 (2).jpg" alt="">
+          </div>
+          <div class="photo" style="--aspect-ratio: 3">
+            <img src="/src/assets/img/6 (2).jpg" alt="">
+          </div>
+          <div class="photo"style="--aspect-ratio: 1">
+            <img src="/src/assets/img/7 (2).jpg" alt="">
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="photo" style="--aspect-ratio: 2">
+            <img src="/src/assets/img/8 (2).jpg" alt="">
+          </div>
+          <div class="photo" style="--aspect-ratio: 3">
+            <img src="/src/assets/img/9 (2).jpg" alt="">
+          </div>
+          <div class="photo"style="--aspect-ratio: 1">
+            <img src="/src/assets/img/10 (2).jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="forum">
+      <h2 class="forum-header">Travel Forum</h2>
+  
+     
+      <div class="add-question">
+          <input type="text" id="questionInput" placeholder="Ask a travel question..." />
+          <button onclick="addQuestion()">Post Question</button>
+      </div>
+  
+      
+      <div id="questionsContainer" class="questions-container"></div>
+  
+  </section>
+
+    <footer>
+      <div class="section__container footer__container" id="contact">
+        <div class="footer__col">
+          <a href="#" class="logo">Travel<span>Blog</span>Site</a>
+        </div>
+
+        <div class="footer__comment">
+          <input type="text" id="comment" placeholder="Share Your Experience Here!">
+          <button class="btn">Submit</button>
+        </div>
+      
+        <div class="footer__col">
+          <ul class="socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-pinterest-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-phone-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Travel Blog Site. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/src/components/script.js"></script>
+  </body>
+</html>
